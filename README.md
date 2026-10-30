@@ -3,6 +3,7 @@
 Homebrew formula for `imx`, the command line for [Blue Text Relay](https://bluetextrelay.com), a self-hosted MCP server for iMessage.
 
 ```bash
+brew trust bluetextrelay/tap      # Homebrew asks you to trust third-party taps once
 brew install bluetextrelay/tap/imx
 imx setup
 ```
